@@ -44,7 +44,6 @@ def get_page_data(html):
         write_csv(data)
 
 
-
 def main():
     url = 'https://coinmarketcap.com/'
     get_page_data(get_html(url))
